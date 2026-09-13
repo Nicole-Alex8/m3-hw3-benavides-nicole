@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+} 
+
+body {
+    background-color: #839484;
+    background-image: url("images/clouds.svg");
+    background-repeat: repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f6f9f9;
+    border-bottom: 2px solid #402d26;
+    height: 60px;
+}       
+
+main.container {
+    margin: 30px auto;
+}
+
+h1 {
+    float: left;
+    color:black;
+    margin-top: 10px;
+}  
+
+h2 {
+    font-size: 28px;
+    border-bottom: 2px solid rgb(239, 63, 10);
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;    
+    line-height: 1.2;
+
+}
+
+nav {
+    float: right;
+    margin-top: 18px;
+}
+
+nav a { 
+    color: rgb(239, 63, 10);
+    text-decoration: none;  
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+section,
+aside {
+    background-color: #f6f9f9;
+}
+
+section {
+    float: left;
+    width: 600px;
+    padding: 30px;
+}
+
+section img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+aside {
+    float: right;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+}
+
+aside a {
+    margin-right: 20px;
+}
+
+main.container::after {
+    content: "";    
+    clear: both;
+    display: block;
+}
+
+footer {
+    clear: both;
+    background-color: #f6f9f9;
+    border-top: 2px solid #402d26;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
